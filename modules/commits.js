@@ -49,7 +49,7 @@ var Commits = (function() {
     }
 
     function parseTeam(commitUrl) {
-      var repoRegex = /https:\/\/github.com\/wowhack\/([._-\w]+)\//,
+      var repoRegex = /https:\/\/github.com\/HackOutWest15\/([._-\w]+)\//,
           res = commitUrl.match(repoRegex, 'g')
       return res && res[1]
     }
@@ -156,7 +156,7 @@ var CommitsCounter = (function () {
 
 $(function() {
 
-  var fireBase = new Firebase("https://wowhack.firebaseio.com/commits")
+  var fireBase = new Firebase("https://hack-out-west-2015.firebaseio.com/commits")
 
   Commits
     .setFirebase(fireBase)
