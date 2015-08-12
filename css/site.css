@@ -456,9 +456,9 @@
  * Create grids with wider gutters. Extends `.grid`.
  */
 .grid--wide {
-  margin-left: -48px; }
+  margin-left: -60px; }
   .grid--wide > .grid__item {
-    padding-left: 48px; }
+    padding-left: 60px; }
 
 /*------------------------------------*\
     $WIDTHS
@@ -1104,6 +1104,9 @@ h2 {
   font-size: 0.88889em;
   letter-spacing: 2px;
   margin-bottom: 1em; }
+  h2.hashtag {
+    font-size: 1em;
+    margin-bottom: 0; }
 
 .notice {
   font-size: 0.77778em;
@@ -1372,7 +1375,7 @@ time {
     display: inline;
     max-width: 60%; }
     .sponsors img.square {
-      max-height: 80px; }
+      max-height: 60px; }
   .sponsors img:not(.square) {
     max-height: 30px; }
 
