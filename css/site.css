@@ -1376,8 +1376,6 @@ time {
     max-width: 60%; }
     .sponsors img.square {
       max-height: 60px; }
-  .sponsors img:not(.square) {
-    max-height: 30px; }
 
 /* Buttons */
 .btn,
