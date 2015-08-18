@@ -1,6 +1,7 @@
-# Dashboard page for Way Out West Hack 2014
+# Dashboard page for Way Out West Hack 2015
 
 Built by [Johan Brook](http://johanbrook.com) unless otherwise noted.
+Updated for 2015 year's hack by [Josefin Ondrus](https://github.com/ondrus/).
 
 ## Developing
 
@@ -17,4 +18,4 @@ gulp watch  # For SCSS compile
 git push origin master
 ```
 
-Visit [wowhack.github.io](http://wowhack.github.io/).
+Visit [hackoutwest.github.io](http://hackoutwest.github.io/).
