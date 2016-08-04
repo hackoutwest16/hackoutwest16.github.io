@@ -91,7 +91,7 @@ $(function() {
 
   Counter
     .from(new Date())
-    .until(new Date(2015, 07, 12, 15, 00))
+    .until(new Date(2016, 07, 10, 15, 00))
     .setElement("#counter")
     .tick(function(timespan) {
       var hours = timespan.hours,
