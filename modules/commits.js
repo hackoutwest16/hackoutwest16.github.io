@@ -156,7 +156,7 @@ var CommitsCounter = (function () {
 
 $(function() {
 
-  var fireBase = new Firebase("https://hackoutwest16.firebaseio.com/commit")
+  var fireBase = new Firebase("https://hackoutwest16.firebaseio.com/commits")
 
   Commits
     .setFirebase(fireBase)
