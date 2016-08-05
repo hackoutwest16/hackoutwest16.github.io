@@ -49,7 +49,7 @@ var Commits = (function() {
     }
 
     function parseTeam(commitUrl) {
-      var repoRegex = /https:\/\/github.com\/hackoutwest16\/([._-\w]+)\//,
+      var repoRegex = /https:\/\/github.com\/hackoutwest2016\/([._-\w]+)\//,
           res = commitUrl.match(repoRegex, 'g')
       return res && res[1]
     }
