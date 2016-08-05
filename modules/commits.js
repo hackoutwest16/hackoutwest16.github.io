@@ -124,9 +124,9 @@ var CommitsCounter = (function () {
 
 
   var increaseCounter = function () {
-
+    this._counter = this._counter + 1;
     this.$el
-      .text(this._counter++)
+      .text(this._counter)
 
     return this
   }
