@@ -2,7 +2,7 @@
 
 Built by [Johan Brook](http://johanbrook.com) unless otherwise noted.
 Updated for 2015 year's hack by [Josefin Ondrus](https://github.com/ondrus/).
-
+Updated för 2016 year´s hack by [Tomas Selldén] (https://github.com/tomsel/).
 ## Developing
 
 ```bash
